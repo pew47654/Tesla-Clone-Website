@@ -1,0 +1,31 @@
+.access-detail{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../assets/image/accessories.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.access{
+    text-align: center;
+}
+.access-main-text{
+    margin-bottom: 55vh;
+}
+.access-main-text h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.shop-btn{
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 100px;
+    background: white;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+

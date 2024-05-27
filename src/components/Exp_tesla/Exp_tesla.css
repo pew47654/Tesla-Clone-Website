@@ -1,0 +1,58 @@
+.Exp {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; 
+}
+
+.exp-main-text {
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    z-index: 2; 
+}
+
+.exp-main-text h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.exp-main-text p {
+    font-size: 15px;
+}
+
+.test-drive-btn {
+    position: absolute;
+    top: 80%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 100px;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    border-color: white;
+    z-index: 3; 
+}
+
+
+
+

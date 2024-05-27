@@ -1,0 +1,21 @@
+.footer{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 3%;
+}
+.list-footer{
+    flex: 1;
+    list-style: none;
+    text-align: center;
+}
+.list-footer li{
+    display: inline-block;
+    margin: 10px 8px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 600;
+    color: rgb(186, 184, 184);
+}
